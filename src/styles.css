@@ -21,11 +21,18 @@ header {
   padding: 0 0 24px 0;
 }
 
+.search-form {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
 .search-form-input {
   background-color: #f9f7fe;
   border: none;
   border-radius: 8px;
-  width: 80%;
+  flex-grow: 1;
   padding: 16px 20px;
   font-size: 16px;
 }
